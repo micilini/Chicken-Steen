@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?d95b0f44bc472446ae28e073df73b8f4") format("truetype"),
+url("./flaticon.woff?d95b0f44bc472446ae28e073df73b8f4") format("woff"),
+url("./flaticon.woff2?d95b0f44bc472446ae28e073df73b8f4") format("woff2"),
+url("./flaticon.eot?d95b0f44bc472446ae28e073df73b8f4#iefix") format("embedded-opentype"),
+url("./flaticon.svg?d95b0f44bc472446ae28e073df73b8f4#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-cutlery:before {
+    content: "\f101";
+}
+.flaticon-tray:before {
+    content: "\f102";
+}
+.flaticon-dish:before {
+    content: "\f103";
+}
+.flaticon-chef:before {
+    content: "\f104";
+}
+.flaticon-fast-food:before {
+    content: "\f105";
+}
+.flaticon-fast-food-1:before {
+    content: "\f106";
+}
+.flaticon-restaurant:before {
+    content: "\f107";
+}
+.flaticon-waiter:before {
+    content: "\f108";
+}
+.flaticon-food:before {
+    content: "\f109";
+}
+.flaticon-poinsettia:before {
+    content: "\f10a";
+}
+.flaticon-hot-pot:before {
+    content: "\f10b";
+}
+.flaticon-asian-food:before {
+    content: "\f10c";
+}
+.flaticon-noodles:before {
+    content: "\f10d";
+}
+.flaticon-dinner:before {
+    content: "\f10e";
+}
+.flaticon-cooking:before {
+    content: "\f10f";
+}
+.flaticon-eating:before {
+    content: "\f110";
+}
+.flaticon-starters:before {
+    content: "\f111";
+}
+.flaticon-wine:before {
+    content: "\f112";
+}
+.flaticon-hot:before {
+    content: "\f113";
+}
+.flaticon-barbeque:before {
+    content: "\f114";
+}
+.flaticon-soup:before {
+    content: "\f115";
+}
+.flaticon-baking:before {
+    content: "\f116";
+}
+.flaticon-chinese-food:before {
+    content: "\f117";
+}
+.flaticon-fish:before {
+    content: "\f118";
+}
+.flaticon-meat:before {
+    content: "\f119";
+}
+.flaticon-meal:before {
+    content: "\f11a";
+}
