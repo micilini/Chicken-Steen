@@ -1,4 +1,7 @@
 $(document).ready(function () {
+	
+	//URL_NAME
+	let url_name = 'http://127.0.0.1:8000/';
 
     $('#bookModal').modal('show');
 
@@ -23,7 +26,7 @@ $(document).ready(function () {
                     'Accept': 'application/json',
                 },
 				dataType: "json",
-                url: 'http://127.0.0.1:8000/users/signup',
+                url: url_name + 'users/signup',
                 data: $('.signupForm').serialize(),
                 success: function (data) {
                     $('#block-signup-login').css('display', 'none');
@@ -54,7 +57,7 @@ $(document).ready(function () {
                     'Accept': 'application/json',
                 },
 				dataType: "json",
-                url: 'http://127.0.0.1:8000/users/login',
+                url: url_name + 'users/login',
                 data: $('.loginForm').serialize(),
                 success: function (data) {
                     $('#block-signup-login').css('display', 'none');
@@ -83,7 +86,7 @@ $(document).ready(function () {
                     'Accept': 'application/json',
                 },
 				dataType: "json",
-                url: 'http://127.0.0.1:8000/book/getHours',
+                url: url_name + 'book/getHours',
                 data: $('.hoursForm').serialize(),
                 success: function (data) {
                     $('#button-check-hours').prop('disabled', false);
@@ -162,7 +165,7 @@ $(document).ready(function () {
                 'Accept': 'application/json',
             },
 		    dataType: "json",
-            url: 'http://127.0.0.1:8000/book/new',
+            url: url_name + 'book/new',
             data: dataValues,
             success: function (data) {
                 $('#button-booking').prop('disabled', false);

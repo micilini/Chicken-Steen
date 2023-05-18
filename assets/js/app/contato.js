@@ -1,4 +1,7 @@
 $(document).ready(function () {
+	
+	//URL_NAME
+	let url_name = 'http://127.0.0.1:8000/';
 
     //Imask.js -> Config 'Telefone'
     IMask(document.getElementById('celular'), {
@@ -17,7 +20,7 @@ $(document).ready(function () {
                 'Accept': 'application/json',
                 },
 		        dataType: "json",
-                url: 'http://127.0.0.1:8000/contact/new',
+                url: url_name + 'contact/new',
                 data: $('.contactForm').serialize(),
                 success: function (data) {
                     createErrorMessage('Em breve responderemos seu e-mail.', 'Enviado', '#2ecc71', 'contact');
