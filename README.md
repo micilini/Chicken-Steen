@@ -18,7 +18,7 @@ Em qualquer local, desde a sua área de trabalho ou quem sabe dentro da pasta ht
 
 ## Configurações Iniciais
 
-É importante ressaltar que o processo de reservas e envio de contatos está sendo feito por meio dos arquivos ```agendar.js``` e ```contato.js```.
+É importante ressaltar que o processo de reservas e envio de contatos está sendo feito por meio dos arquivos ```agendar.js``` e ```contato.js```, que estão localizados em ```assets/js/app```.
 
 No início do arquivo existe uma variável chamada ```url_name```, que aponta para ```127.0.0.1:8000``` que nada mais é do que a URL local da ```API``` da Chicken Steen, mais detalhes de como configurar essa API [clique aqui](https://github.com/micilini/api.chickensteen.com.br).
 
